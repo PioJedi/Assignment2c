@@ -5,10 +5,10 @@ def coin_change(cents):
     P = cents % 5
 
     print("Your change will be:")
-    print("Q: ",Q)
-    print("D: ",D)
-    print("N: ",N)
-    print("P: ",P)
+    print("Q:",Q)
+    print("D:",D)
+    print("N:",N)
+    print("P:",P)
 
 print("Please enter an amount in cents less than a dollar.")
 coin_change(int(input()))
